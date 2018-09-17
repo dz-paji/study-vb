@@ -235,13 +235,56 @@ Module Program
         '    Case "FLASH"
         '        Console.WriteLine(outputName & "Barry Allen")
         '    Case Else
-        '        Console.WriteLine("OMG, your hero is not on my list")
-
-
+        '        Console.WriteLine("OMG, your hero is not on my list"
         'End Select
 
         ' Connecting Logical Operators
+        ' fake Calculator
+        'Dim numberA As Int32
+        'Dim numberB As Int32
+        'Dim numberC As Int32
+        'Dim operators As String
+        'Console.WriteLine("Input number A:")
+        'numberA = Console.ReadLine()
+        'Console.WriteLine("Input number B:")
+        'numberB = Console.ReadLine()
+        'Console.WriteLine("Input number C:")
+        'numberC = Console.ReadLine()
+        'Console.WriteLine("Please input the operator, +, -, * or /")
+        'operators = Console.ReadLine()
+        'Select Case operators
+        '    Case "-"
+        '        Console.WriteLine("Your result is {0}", numberA - numberB - numberC)
+        '    Case "+"
+        '        Console.WriteLine("Your result is {0}", numberA + numberB + numberC)
+        '    Case "*"
+        '        Console.WriteLine("Your result is {0}", numberA * numberB * numberC)
+        '    Case "/"
+        '        Console.WriteLine("Your result is {0}", numberA / numberB / numberC)
+        'End Select
 
+        ' result
+        Dim inputName As String
+        Dim inputScore As Int32
+        Dim inputTotalMark As Int32
+        Dim output As String = "{0} got a(n)"
+        Console.WriteLine("Please input the total posible mark")
+        inputTotalMark = Console.ReadLine()
+        Console.WriteLine("Please input the student name")
+        inputName = Console.ReadLine()
+        Console.WriteLine("Please input his/hers score")
+        inputScore = Console.ReadLine()
+        If (inputScore / inputTotalMark) > 0.95 Then
+            Console.WriteLine(output & " A*", inputName)
+        ElseIf (inputScore / inputTotalMark) > 0.8 And (inputScore / inputTotalMark) < 0.94 Then
+            Console.WriteLine(output & " A", inputName)
+        ElseIf (inputScore / inputTotalMark) > 0.6 And (inputScore / inputTotalMark) < 0.79 Then
+            Console.WriteLine(output & " B", inputName)
+        ElseIf (inputScore / inputTotalMark) < 0.6 Then
+            Console.WriteLine(output & " C", inputName)
+
+
+        End If
 
         Console.ReadKey()
 
