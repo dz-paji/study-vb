@@ -2,6 +2,7 @@ Imports System
 
 Module Program
     Sub Main(args As String())
+        ' Start.
         'Dim amaer As Int32
         'Dim softBank As Int32
         'Dim yingHua As Int32
@@ -146,24 +147,101 @@ Module Program
         'ElseIf (stringA.Length = stringB.Length) Then
         '    Console.WriteLine("same")
         'End If
-        Dim inputFruit As String
-        Dim Fruitlower As String
-        Console.WriteLine("Which fruit do you link? Apple, Orange, Bananas or Peach?")
-        inputFruit = Console.ReadLine()
-        Dim firstOutput As String = "You like " & inputFruit
-        Fruitlower = inputFruit.ToLower
-        Select Case Fruitlower
-            Case "apple"
-                Console.WriteLine(firstOutput & ". These are green and red")
-            Case "orange"
-                Console.WriteLine(firstOutput & ". These are orange... omg")
-            Case "bananas"
-                Console.WriteLine(firstOutput & ". Yellow, seriously")
-            Case "peach"
-                Console.WriteLine(firstOutput & ". Red on the outside but yellow inside")
-            Case Else
-                Console.WriteLine("Hey, you need to pick one.")
-        End Select
+        'Dim inputFruit As String
+        'Dim Fruitlower As String
+        'Console.WriteLine("Which fruit do you link? Apple, Orange, Bananas or Peach?")
+        'inputFruit = Console.ReadLine()
+        'Dim firstOutput As String = "You like " & inputFruit
+        'Fruitlower = inputFruit.ToLower
+        'Select Case Fruitlower
+        '    Case "apple"
+        '        Console.WriteLine(firstOutput & ". These are green and red")
+        '    Case "orange"
+        '        Console.WriteLine(firstOutput & ". These are orange... omg")
+        '    Case "bananas"
+        '        Console.WriteLine(firstOutput & ". Yellow, seriously")
+        '    Case "peach"
+        '        Console.WriteLine(firstOutput & ". Red on the outside but yellow inside")
+        '    Case Else
+        '        Console.WriteLine("Hey, you need to pick one.")
+        'End Select
+
+        'Dim input1 As String
+        'Console.WriteLine("›î»Î A")
+        'input1 = Console.ReadLine()
+        'If input1 = "A" Then
+        '    Console.WriteLine("Nice")
+        'ElseIf input1 <> "A" Then
+
+        '    Do
+        '        Console.WriteLine("Œ“◊åƒ„›î»Î A")
+        '        input1 = Console.ReadLine()
+        '    Loop While input1 <> "A"
+        '    Console.WriteLine("Nice")
+        'End If
+        ' A task
+        ' In IF/THEN/ELSE
+        'Dim inputName As String
+        'Dim outputName As String = "His real name is "
+        'Console.WriteLine("Input a hero name")
+        'inputName = Console.ReadLine()
+        'If inputName = "BATMAN" Then
+        '    Console.WriteLine(outputName & "Bruce Wayne")
+        'Else
+        '    If inputName = "SUPERMAN" Then
+        '        Console.WriteLine(outputName & "Kal El")
+        '    Else
+        '        If inputName = "IRON MAN" Then
+        '            Console.WriteLine(outputName & "Tony Stark")
+        '        Else
+        '            If inputName = "FLASH" Then
+        '                Console.WriteLine(outputName & "Barry Allen")
+        '            Else
+        '                Console.WriteLine("OMG, your hero is not on my list")
+        '            End If
+        '        End If
+        '    End If
+        'End If
+
+        'Use elseif
+        'Dim inputName As String
+        'Dim outputName As String = "His real name is "
+        'Console.WriteLine("Input a hero name")
+        'inputName = Console.ReadLine()
+        'If inputName = "BATMAN" Then
+        '    Console.WriteLine(outputName & "Bruce Wayne")
+        'ElseIf inputName = "SUPERMAN" Then
+        '    Console.WriteLine(outputName & "Kal El")
+        'ElseIf inputName = "IRON MAN" Then
+        '    Console.WriteLine(outputName & "Tony Stark")
+        'ElseIf inputName = "FLASH" Then
+        '    Console.WriteLine(outputName & "Barry Allen")
+        'Else
+        '    Console.WriteLine("OMG, your hero is not on my list")
+        'End If
+
+        ' Use case
+        'Dim inputName As String
+        'Dim outputName As String = "His real name is "
+        'Console.WriteLine("Input a hero name")
+        'inputName = Console.ReadLine()
+        'Select Case inputName
+        '    Case "BATMAN"
+        '        Console.WriteLine(outputName & "Bruce Wayne")
+        '    Case "SUPERMAN"
+        '        Console.WriteLine(outputName & "Kal El")
+        '    Case "IRON MAN"
+        '        Console.WriteLine(outputName & "Tony Stark")
+        '    Case "FLASH"
+        '        Console.WriteLine(outputName & "Barry Allen")
+        '    Case Else
+        '        Console.WriteLine("OMG, your hero is not on my list")
+
+
+        'End Select
+
+        ' Connecting Logical Operators
+
 
         Console.ReadKey()
 

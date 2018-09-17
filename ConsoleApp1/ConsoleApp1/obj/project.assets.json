@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zhang\\source\\repos\\StudyCoding\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectUniqueName": "C:\\Users\\zhang\\Documents\\GitHub\\studycoding\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\zhang\\source\\repos\\StudyCoding\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectPath": "C:\\Users\\zhang\\Documents\\GitHub\\studycoding\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
       "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zhang\\source\\repos\\StudyCoding\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\zhang\\Documents\\GitHub\\studycoding\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
