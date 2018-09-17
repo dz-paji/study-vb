@@ -267,24 +267,28 @@ Module Program
         Dim inputName As String
         Dim inputScore As Int32
         Dim inputTotalMark As Int32
+        Dim inputcontinue As String
         Dim output As String = "{0} got a(n)"
         Console.WriteLine("Please input the total posible mark")
         inputTotalMark = Console.ReadLine()
-        Console.WriteLine("Please input the student name")
-        inputName = Console.ReadLine()
-        Console.WriteLine("Please input his/hers score")
-        inputScore = Console.ReadLine()
-        If (inputScore / inputTotalMark) > 0.95 Then
-            Console.WriteLine(output & " A*", inputName)
-        ElseIf (inputScore / inputTotalMark) > 0.8 And (inputScore / inputTotalMark) < 0.94 Then
-            Console.WriteLine(output & " A", inputName)
-        ElseIf (inputScore / inputTotalMark) > 0.6 And (inputScore / inputTotalMark) < 0.79 Then
-            Console.WriteLine(output & " B", inputName)
-        ElseIf (inputScore / inputTotalMark) < 0.6 Then
-            Console.WriteLine(output & " C", inputName)
 
-
-        End If
+        Do
+            Console.WriteLine("Please input the student name")
+            inputName = Console.ReadLine()
+            Console.WriteLine("Please input his/hers score")
+            inputScore = Console.ReadLine()
+            If (inputScore / inputTotalMark) > 0.95 Then
+                Console.WriteLine(output & " A*", inputName)
+            ElseIf (inputScore / inputTotalMark) > 0.8 And (inputScore / inputTotalMark) < 0.94 Then
+                Console.WriteLine(output & " A", inputName)
+            ElseIf (inputScore / inputTotalMark) > 0.6 And (inputScore / inputTotalMark) < 0.79 Then
+                Console.WriteLine(output & " B", inputName)
+            ElseIf (inputScore / inputTotalMark) < 0.6 Then
+                Console.WriteLine(output & " C", inputName)
+            End If
+            Console.WriteLine("Do you want to do more?(Y/N)")
+            inputcontinue = Console.ReadLine()
+        Loop While inputcontinue.ToLower = "y"
 
         Console.ReadKey()
 
