@@ -264,33 +264,77 @@ Module Program
         'End Select
 
         ' result
-        Dim inputName As String
-        Dim inputScore As Int32
-        Dim inputTotalMark As Int32
-        Dim inputcontinue As String
-        Dim output As String = "{0} got a(n)"
-        Console.WriteLine("Please input the total posible mark")
-        inputTotalMark = Console.ReadLine()
+        'Dim inputName As String
+        'Dim inputScore As Int32
+        'Dim inputTotalMark As Int32
+        'Dim inputcontinue As String
+        'Dim output As String = "{0} got a(n)"
+        'Console.WriteLine("Please input the total posible mark")
+        'inputTotalMark = Console.ReadLine()
 
-        Do
-            Console.WriteLine("Please input the student name")
-            inputName = Console.ReadLine()
-            Console.WriteLine("Please input his/hers score")
-            inputScore = Console.ReadLine()
-            If (inputScore / inputTotalMark) > 0.95 Then
-                Console.WriteLine(output & " A*", inputName)
-            ElseIf (inputScore / inputTotalMark) > 0.8 And (inputScore / inputTotalMark) < 0.94 Then
-                Console.WriteLine(output & " A", inputName)
-            ElseIf (inputScore / inputTotalMark) > 0.6 And (inputScore / inputTotalMark) < 0.79 Then
-                Console.WriteLine(output & " B", inputName)
-            ElseIf (inputScore / inputTotalMark) < 0.6 Then
-                Console.WriteLine(output & " C", inputName)
-            End If
-            Console.WriteLine("Do you want to do more?(Y/N)")
-            inputcontinue = Console.ReadLine()
-        Loop While inputcontinue.ToLower = "y"
+        'Do
+        '    Console.WriteLine("Please input the student name")
+        '    inputName = Console.ReadLine()
+        '    Console.WriteLine("Please input his/hers score")
+        '    inputScore = Console.ReadLine()
+        '    If (inputScore / inputTotalMark) > 0.95 Then
+        '        Console.WriteLine(output & " A*", inputName)
+        '    ElseIf (inputScore / inputTotalMark) > 0.8 And (inputScore / inputTotalMark) < 0.94 Then
+        '        Console.WriteLine(output & " A", inputName)
+        '    ElseIf (inputScore / inputTotalMark) > 0.6 And (inputScore / inputTotalMark) < 0.79 Then
+        '        Console.WriteLine(output & " B", inputName)
+        '    ElseIf (inputScore / inputTotalMark) < 0.6 Then
+        '        Console.WriteLine(output & " C", inputName)
+        '    End If
+        '    Console.WriteLine("Do you want to do more?(Y/N)")
+        '    inputcontinue = Console.ReadLine()
+        'Loop While inputcontinue.ToLower = "y"
+        'Dim inputmass As String
+        'Dim inputtype As String
+        'Console.WriteLine("input the mass")
+        'inputmass = Console.ReadLine()
+        'Console.WriteLine("input the transfer type(local or international)")
+        'inputtype = Console.ReadLine()
+        'If inputtype.ToLower = "local" And inputmass > 50 Then
+        '    Console.WriteLine("invalid")
+        'ElseIf inputtype = "local" And inputmass < 5 Then
+        '    Console.WriteLine("$20")
+        'ElseIf inputtype = "local" And inputmass > 5 And inputmass < 50 Then
+        '    Console.WriteLine(20 + (inputmass - 5))
+        'ElseIf inputtype = "international" And inputmass < 10 Then
+        '    Console.WriteLine("$40")
+        'Else
+        '    Console.WriteLine("invalid")
+        'End If
 
+        ' real calculator
+        'Dim inputnumberA As String
+        'Dim inputnumberB As Int32
+        'Dim resultCalculated As Int32
+        'Dim continueProcess As String
+        ''Do
+        ''Console.WriteLine("input your first number")
+        ''    inputnumberA = Console.ReadLine()
+        ''    Console.WriteLine("input your s number")
+        ''inputnumberA = Console.ReadLine()
+        ''inputnumberB = inputnumberA
+        ''formular_int = Convert.ToInt32(inputformular)
+        ''formular_int = CInt(inputformular)
+        ''formular_int = Convert.ToInt32(inputformular)        'Dim inputnumberA As String
+        'Dim inputnumberB As Int32
+        'Dim resultCalculated As Int32
+        'Dim continueProcess As String
+        ''Do
+        ''Console.WriteLine("input your first number")
+        ''    inputnumberA = Console.ReadLine()
+        ''    Console.WriteLine("input your s number")
+        ''inputnumberA = Console.ReadLine()
+        ''inputnumberB = inputnumberA
+        ''formular_int = Convert.ToInt32(inputformular)
+        ''formular_int = CInt(inputformular)
+        ''formular_int = Convert.ToInt32(inputformular)
         Console.ReadKey()
+        'Loop
 
     End Sub
 End Module
