@@ -333,8 +333,16 @@ Module Program
         ''formular_int = Convert.ToInt32(inputformular)
         ''formular_int = CInt(inputformular)
         ''formular_int = Convert.ToInt32(inputformular)
-        Console.ReadKey()
         'Loop
+        ' For
+        Dim i As Int32
+        Dim input As String
+        Console.WriteLine("Input your words")
+        input = Console.ReadLine()
+        For i = 1 To 10
+            Console.WriteLine(input)
+        Next
+        Console.ReadKey()
 
     End Sub
 End Module
