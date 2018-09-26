@@ -335,13 +335,40 @@ Module Program
         ''formular_int = Convert.ToInt32(inputformular)
         'Loop
         ' For
-        Dim i As Int32
-        Dim input As String
-        Console.WriteLine("Input your wordddddddddddddddddddddddddddddddddddddd")
-        input = Console.ReadLine()
-        For i = 1 To 10
-            Console.WriteLine(input)
-        Next
+        'Dim i As Int32
+        'Dim input As String
+        'Console.WriteLine("Input your wordddddddddddddddddddddddddddddddddddddd")
+        'input = Console.ReadLine()
+        'For i = 1 To 10
+        '    Console.WriteLine(input)
+        'Next
+        'Dim i As Integer = 1
+        'Dim inputNumber As Integer
+        'Console.WriteLine("enter a number")
+        'inputNumber = Console.ReadLine()
+        'For i = 0 To inputNumber
+        '    Console.WriteLine((i + 1) * inputNumber)
+        '    i = i + 1
+        'Next
+        Dim inputLetter As String
+        Console.WriteLine("Enter a letter")
+        inputLetter = Console.ReadLine()
+        Select Case inputLetter.ToUpper
+            Case "A"
+                For i = 1 To 10
+                    Console.WriteLine("America")
+                Next
+            Case "B"
+                For i = 1 To 10
+                    Console.WriteLine("Britain")
+                Next
+            Case "C"
+                For i = 1 To 10
+                    Console.WriteLine("China")
+                Next
+            Case Else
+                Console.WriteLine("failed")
+        End Select
         Console.ReadKey()
 
     End Sub
