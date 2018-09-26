@@ -337,7 +337,7 @@ Module Program
         ' For
         Dim i As Int32
         Dim input As String
-        Console.WriteLine("Input your words")
+        Console.WriteLine("Input your wordddddddddddddddddddddddddddddddddddddd")
         input = Console.ReadLine()
         For i = 1 To 10
             Console.WriteLine(input)
