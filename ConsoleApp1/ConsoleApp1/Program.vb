@@ -350,24 +350,76 @@ Module Program
         '    Console.WriteLine((i + 1) * inputNumber)
         '    i = i + 1
         'Next
-        Dim inputLetter As String
-        Console.WriteLine("Enter a letter")
-        inputLetter = Console.ReadLine()
-        Select Case inputLetter.ToUpper
-            Case "A"
-                For i = 1 To 10
-                    Console.WriteLine("America")
-                Next
-            Case "B"
-                For i = 1 To 10
-                    Console.WriteLine("Britain")
-                Next
-            Case "C"
-                For i = 1 To 10
-                    Console.WriteLine("China")
+        'Dim inputLetter As String
+        'Console.WriteLine("Enter a letter")
+        'inputLetter = Console.ReadLine()
+        'Select Case inputLetter.ToUpper
+        '    Case "A"
+        '        For i = 1 To 10
+        '            Console.WriteLine("America")
+        '        Next
+        '    Case "B"
+        '        For i = 1 To 10
+        '            Console.WriteLine("Britain")
+        '        Next
+        '    Case "C"
+        '        For i = 1 To 10
+        '            Console.WriteLine("China")
+        '        Next
+        '    Case Else
+        '        Console.WriteLine("failed")
+        'End Select        'Dim inputLetter As String
+        'Console.WriteLine("Enter a letter")
+        'inputLetter = Console.ReadLine()
+        'Select Case inputLetter.ToUpper
+        '    Case "A"
+        '        For i = 1 To 10
+        '            Console.WriteLine("America")
+        '        Next
+        '    Case "B"
+        '        For i = 1 To 10
+        '            Console.WriteLine("Britain")
+        '        Next
+        '    Case "C"
+        '        For i = 1 To 10
+        '            Console.WriteLine("China")
+        '        Next
+        '    Case Else
+        '        Console.WriteLine("failed")
+        'End Select
+        Dim userChooseLoopInt As Int32
+        Dim userStartingNumberInt As Int32
+        Dim userEndingNumberInt As Int32
+        Console.WriteLine("Please type a number to choose your loop :(")
+        userChooseLoopInt = Console.ReadLine()
+        Console.WriteLine("Please type number 2 =_=")
+        userStartingNumberInt = Console.ReadLine()
+        Console.WriteLine("I know it's boring, but please enter a number QAQ. It need to be larger than the number 2")
+        userEndingNumberInt = Console.ReadLine()
+        Select Case userChooseLoopInt
+            Case 1
+                Do While userStartingNumberInt < userEndingNumberInt
+                    Console.WriteLine("QQ")
+                    userStartingNumberInt = userStartingNumberInt + 1
+                Loop
+            Case 2
+                Do While Not userStartingNumberInt > userEndingNumberInt
+                    Console.WriteLine("QQ")
+                    userStartingNumberInt = userStartingNumberInt + 1
+                Loop
+            Case 3
+                Do Until userStartingNumberInt = userEndingNumberInt
+                    Console.WriteLine("QQ")
+                    userStartingNumberInt = userStartingNumberInt + 1
+                Loop
+            Case 4
+                For userStartingNumberInt = userStartingNumberInt To userEndingNumberInt - 1
+                    Console.WriteLine("QQ")
                 Next
             Case Else
-                Console.WriteLine("failed")
+                Console.WriteLine("vgweyuirbfugeribfg")
+
+
         End Select
         Console.ReadKey()
 
