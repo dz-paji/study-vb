@@ -387,40 +387,40 @@ Module Program
         '    Case Else
         '        Console.WriteLine("failed")
         'End Select
-        Dim userChooseLoopInt As Int32
-        Dim userStartingNumberInt As Int32
-        Dim userEndingNumberInt As Int32
-        Console.WriteLine("Please type a number to choose your loop :(")
-        userChooseLoopInt = Console.ReadLine()
-        Console.WriteLine("Please type number 2 =_=")
-        userStartingNumberInt = Console.ReadLine()
-        Console.WriteLine("I know it's boring, but please enter a number QAQ. It need to be larger than the number 2")
-        userEndingNumberInt = Console.ReadLine()
-        Select Case userChooseLoopInt
-            Case 1
-                Do While userStartingNumberInt < userEndingNumberInt
-                    Console.WriteLine("QQ")
-                    userStartingNumberInt = userStartingNumberInt + 1
-                Loop
-            Case 2
-                Do While Not userStartingNumberInt > userEndingNumberInt
-                    Console.WriteLine("QQ")
-                    userStartingNumberInt = userStartingNumberInt + 1
-                Loop
-            Case 3
-                Do Until userStartingNumberInt = userEndingNumberInt
-                    Console.WriteLine("QQ")
-                    userStartingNumberInt = userStartingNumberInt + 1
-                Loop
-            Case 4
-                For userStartingNumberInt = userStartingNumberInt To userEndingNumberInt - 1
-                    Console.WriteLine("QQ")
-                Next
-            Case Else
-                Console.WriteLine("vgweyuirbfugeribfg")
+        'Dim userChooseLoopInt As Int32
+        'Dim userStartingNumberInt As Int32
+        'Dim userEndingNumberInt As Int32
+        'Console.WriteLine("Please type a number to choose your loop :(")
+        'userChooseLoopInt = Console.ReadLine()
+        'Console.WriteLine("Please type number 2 =_=")
+        'userStartingNumberInt = Console.ReadLine()
+        'Console.WriteLine("I know it's boring, but please enter a number QAQ. It need to be larger than the number 2")
+        'userEndingNumberInt = Console.ReadLine()
+        'Select Case userChooseLoopInt
+        '    Case 1
+        '        Do While userStartingNumberInt < userEndingNumberInt
+        '            Console.WriteLine("QQ")
+        '            userStartingNumberInt = userStartingNumberInt + 1
+        '        Loop
+        '    Case 2
+        '        Do While Not userStartingNumberInt > userEndingNumberInt
+        '            Console.WriteLine("QQ")
+        '            userStartingNumberInt = userStartingNumberInt + 1
+        '        Loop
+        '    Case 3
+        '        Do Until userStartingNumberInt = userEndingNumberInt
+        '            Console.WriteLine("QQ")
+        '            userStartingNumberInt = userStartingNumberInt + 1
+        '        Loop
+        '    Case 4
+        '        For userStartingNumberInt = userStartingNumberInt To userEndingNumberInt - 1
+        '            Console.WriteLine("QQ")
+        '        Next
+        '    Case Else
+        '        Console.WriteLine("vgweyuirbfugeribfg")
 
 
-        End Select
+        'End Select
         Console.ReadKey()
 
     End Sub
