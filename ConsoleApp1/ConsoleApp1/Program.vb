@@ -167,14 +167,14 @@ Module Program
         'End Select
 
         'Dim input1 As String
-        'Console.WriteLine("Ý”Èë A")
+        'Console.WriteLine("Ý”ï¿½ï¿½ A")
         'input1 = Console.ReadLine()
         'If input1 = "A" Then
         '    Console.WriteLine("Nice")
         'ElseIf input1 <> "A" Then
 
         '    Do
-        '        Console.WriteLine("ÎÒ×ŒÄãÝ”Èë A")
+        '        Console.WriteLine("ï¿½ï¿½×Œï¿½ï¿½Ý”ï¿½ï¿½ A")
         '        input1 = Console.ReadLine()
         '    Loop While input1 <> "A"
         '    Console.WriteLine("Nice")
