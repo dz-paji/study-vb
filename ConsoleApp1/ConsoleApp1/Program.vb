@@ -419,7 +419,7 @@ Module Program
         '    Case Else
         '        Console.WriteLine("vgweyuirbfugeribfg")
         'End Select
-        Dim phoneNameArray() As String = {"Pixel3", "Pixel2", "Pixel", "Pixel3 XL"}
+        Dim phoneNameArray() As String = {"Pixel3", "Pixel2", "Pixel", "Pixel3 XL", "Huawei Mate 20 Pro"}
         Dim inputeNumberInt As Int32
         Console.WriteLine("Enter a number")
         inputeNumberInt = Console.ReadLine()
@@ -427,7 +427,7 @@ Module Program
         If inputeNumberInt > 3 Then
             Console.WriteLine("Your input can't be larger than 3!")
         Else
-            Console.WriteLine("You need to buy me a {0}", phoneNameArray(inputeNumberInt))
+            Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
         End If
 
 
