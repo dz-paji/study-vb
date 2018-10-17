@@ -419,7 +419,14 @@ Module Program
         '    Case Else
         '        Console.WriteLine("vgweyuirbfugeribfg")
         'End Select
-        Dim phoneNameArray() As String = {"Pixel3", "Pixel2", "Pixel", "Pixel3 XL", "Huawei Mate 20 Pro"}
+
+        'Dim phoneNameArray() As String = {"Pixel3", "Pixel2", "Pixel", "Pixel3 XL", "Huawei Mate 20 Pro"}
+        ' Declear an array and initialize it at the same time.
+
+        'Dim phoneNameArray(6) As String
+        'phoneNameArray(0) = "Pixel1"
+        ' Declear an array and initialize it later.
+
         Dim inputeNumberInt As Int32
         Console.WriteLine("Enter a number")
         inputeNumberInt = Console.ReadLine()
