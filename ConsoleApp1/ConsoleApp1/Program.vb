@@ -450,10 +450,10 @@ Module Program
         Loop
         Console.WriteLine("In your array, you have:")
         numberArray = 0
-        While numberArray <= 5
+        For numberArray = 0 To 5
             Console.WriteLine(userInputArray(numberArray))
             numberArray = numberArray + 1
-        End While
+        Next
 
 
 
