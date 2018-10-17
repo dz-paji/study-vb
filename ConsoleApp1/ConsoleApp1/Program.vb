@@ -426,16 +426,19 @@ Module Program
         'Dim phoneNameArray(6) As String
         'phoneNameArray(0) = "Pixel1"
         ' Declear an array and initialize it later.
+        ' Display it witn Console.WriteLine(phoneNameArray(Array Index))
 
-        Dim inputeNumberInt As Int32
-        Console.WriteLine("Enter a number")
-        inputeNumberInt = Console.ReadLine()
-        inputeNumberInt = inputeNumberInt - 1
-        If inputeNumberInt > 3 Then
-            Console.WriteLine("Your input can't be larger than 3!")
-        Else
-            Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
-        End If
+        'Dim inputeNumberInt As Int32
+        'Console.WriteLine("Enter a number")
+        'inputeNumberInt = Console.ReadLine()
+        'inputeNumberInt = inputeNumberInt - 1
+        'If inputeNumberInt > 3 Then
+        '    Console.WriteLine("Your input can't be larger than 3!")
+        'Else
+        '    Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
+        'End If
+
+
 
 
         Console.ReadKey()
