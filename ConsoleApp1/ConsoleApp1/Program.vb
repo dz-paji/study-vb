@@ -438,7 +438,7 @@ Module Program
         '    Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
         'End If
 
-        Dim userInputArray() As String
+        Dim userInputArray(6) As String
         Dim enableinitialze As String = "Y"
         Dim numberArray As Int32 = 0
         Do While enableinitialze.ToLower = "y" And numberArray <= 5
