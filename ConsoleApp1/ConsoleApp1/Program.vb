@@ -454,8 +454,26 @@ Module Program
         '    Console.WriteLine(userInputArray(numberArray))
         '    numberArray = numberArray + 1
         'Next
+        Dim userInputString As String
+        Dim i As Int32 = 0
+        Dim m As Boolean
+        Dim systemArrayString() As String = {"Quick", "Mr Quick", "Mr Darren", "Darren Quick", "达伦快", "Pual Goodwine", "Xi", "Lee", "Jiang", "Vincent Wang"}
+        Console.WriteLine("Please enter a name")
+        userInputString = Console.ReadLine()
+        For i = 0 To 9
+            If userInputString.ToLower = systemArrayString(i).ToLower Then
+                Console.WriteLine("His in the array")
+                Console.ReadKey()
+                Return
+            Else
+                i = i + 1
+            End If
+            m = True
 
-
+        Next
+        If m = True Then
+            Console.WriteLine("404")
+        End If
 
         Console.ReadKey()
 
