@@ -438,22 +438,22 @@ Module Program
         '    Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
         'End If
 
-        Dim userInputArray(6) As String
-        Dim enableinitialze As String = "Y"
-        Dim numberArray As Int32 = 0
-        Do While enableinitialze.ToLower = "y" And numberArray <= 5
-            Console.WriteLine("Please input an value")
-            userInputArray(numberArray) = Console.ReadLine()
-            Console.WriteLine("Do you still want to add any more? (Y/N)")
-            enableinitialze = Console.ReadLine()
-            numberArray = numberArray + 1
-        Loop
-        Console.WriteLine("In your array, you have:")
-        numberArray = 0
-        For numberArray = 0 To 5
-            Console.WriteLine(userInputArray(numberArray))
-            numberArray = numberArray + 1
-        Next
+        'Dim userInputArray(6) As String
+        'Dim enableinitialze As String = "Y"
+        'Dim numberArray As Int32 = 0
+        'Do While enableinitialze.ToLower = "y" And numberArray <= 5
+        '    Console.WriteLine("Please input an value")
+        '    userInputArray(numberArray) = Console.ReadLine()
+        '    Console.WriteLine("Do you still want to add any more? (Y/N)")
+        '    enableinitialze = Console.ReadLine()
+        '    numberArray = numberArray + 1
+        'Loop
+        'Console.WriteLine("In your array, you have:")
+        'numberArray = 0
+        'For numberArray = 0 To 5
+        '    Console.WriteLine(userInputArray(numberArray))
+        '    numberArray = numberArray + 1
+        'Next
 
 
 
