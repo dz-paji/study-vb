@@ -473,8 +473,16 @@ Module Program
         If m = True Then
             Console.WriteLine("404")
         End If
+        Dim n1 As Integer
+        Dim n2 As Int32
+        n1 = UBound(userInputArray)
 
         Console.ReadKey()
 
+
     End Sub
+
+    Private Function UBound(userInputArray() As String) As Integer
+        Throw New NotImplementedException()
+    End Function
 End Module
