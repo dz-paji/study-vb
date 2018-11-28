@@ -482,6 +482,9 @@ Module Program
         Dim i As Int32
         Dim iUser As Int32
         Dim userSelect As Int32
+        Dim systemSelect3 As Int32
+        Dim systemSelect2 As Int32
+        Dim systemSelectPrime As Int32
 
         Console.WriteLine("Type in any word you want")
         userInput1 = Console.ReadLine()
@@ -491,29 +494,40 @@ Module Program
         userInput3 = Console.ReadLine()
         Console.WriteLine("How many times do you want to repeat?")
         iUser = Console.ReadLine()
-        Console.WriteLine("Which word would you want to repeat, {0}, {1}, or {2}?", userInput1, userInput2, userInput3)
-        userSelect = Console.ReadLine()
-        Select Case userSelect
-            Case 1
-                For i = 1 To iUser
-                    'Console.WriteLine(userInput)
-                    Console.WriteLine(userInput1)
-                Next
-            Case 2
-                For i = 1 To iUser
-                    'Console.WriteLine(userInput)
-                    Console.WriteLine("{0}", userInput2)
-                Next
-            Case 3
-                For i = 1 To iUser
-                    'Console.WriteLine(userInput)
-                    Console.WriteLine("{0}", userInput3)
-                Next
-        End Select
+        'Console.WriteLine("Which word would you want to repeat, {0}, {1}, or {2}?", userInput1, userInput2, userInput3)
+        'userSelect = Console.ReadLine()
+        'Select Case userSelect
+        '    Case 1
+        '        For i = 1 To iUser
+        '            'Console.WriteLine(userInput)
+        '            Console.WriteLine(userInput1)
+        '        Next
+        '    Case 2
+        '        For i = 1 To iUser
+        '            'Console.WriteLine(userInput)
+        '            Console.WriteLine("{0}", userInput2)
+        '        Next
+        '    Case 3
+        '        For i = 1 To iUser
+        '            'Console.WriteLine(userInput)
+        '            Console.WriteLine("{0}", userInput3)
+        '        Next
+        'End Select
+
         'For i = 1 To iUser
         '    'Console.WriteLine(userInput)
         '    Console.WriteLine("{0}, {1}, {2}", userInput1, userInput2, userInput3)
         'Next
+        systemSelect3 = iUser Mod 3
+        systemSelect2 = iUser Mod 2
+        systemSelectPrime = iUser Mod iUser
+        If systemSelect3 = 0 Then
+            Console.WriteLine(userInput3)
+        ElseIf systemSelect2 = 0 Then
+            Console.WriteLine(userInput2)
+        ElseIf systemSelectPrime = 0 Then
+            Console.WriteLine(userInput1)
+        End If
 
         Console.ReadKey()
 
