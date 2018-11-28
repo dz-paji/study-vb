@@ -476,13 +476,23 @@ Module Program
         'Dim n1 As Integer
         'Dim n2 As Int32
         'n1 = UBound(userInputArray)
-        Dim userInput As String
+        Dim userInput1 As String
+        Dim userInput2 As String
+        Dim userInput3 As String
         Dim i As Int32
+        Dim iUser As Int32
 
-        Console.WriteLine("Type in any word")
-        userInput = Console.ReadLine()
-        For i = 1 To 10
-            Console.WriteLine(userInput)
+        Console.WriteLine("Type in any word you want")
+        userInput1 = Console.ReadLine()
+        Console.WriteLine("Type in any word you want")
+        userInput2 = Console.ReadLine()
+        Console.WriteLine("Type in any word you want")
+        userInput3 = Console.ReadLine()
+        Console.WriteLine("how many times do you want to repeat?")
+        iUser = Console.ReadLine()
+        For i = 1 To iUser
+            '    Console.WriteLine(userInput)
+            Console.WriteLine("{0}, {1}, {2}", userInput1, userInput2, userInput3)
         Next
 
         Console.ReadKey()
