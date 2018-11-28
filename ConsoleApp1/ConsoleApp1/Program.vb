@@ -438,44 +438,52 @@ Module Program
         '    Console.WriteLine("You need to buy me {0}", phoneNameArray(inputeNumberInt))
         'End If
 
-        Dim userInputArray(7) As String
-        Dim enableinitialze As String = "Y"
-        Dim numberArray As Int32 = 0
-        Do While enableinitialze.ToLower = "y" And numberArray <= 6
-            Console.WriteLine("Please input an value")
-            userInputArray(numberArray) = Console.ReadLine()
-            Console.WriteLine("Do you still want to add any more? (Y/N)")
-            enableinitialze = Console.ReadLine()
-            numberArray = numberArray + 1
-        Loop
-        Console.WriteLine("In your array, you have:")
-        numberArray = 0
-        For numberArray = 0 To 5
-            Console.WriteLine(userInputArray(numberArray))
-            numberArray = numberArray + 1
-        Next
-        Dim userInputString As String
-        Dim i As Int32 = 0
-        Dim m As Boolean
-        Console.WriteLine("Please enter a name")
-        userInputString = Console.ReadLine()
-        For i = 0 To 9
-            If userInputString.ToLower = userInputArray(i).ToLower Then
-                Console.WriteLine("He's in the array")
-                Console.ReadKey()
-                Return
-            Else
-                i = i + 1
-            End If
-            m = True
+        'Dim userInputArray(7) As String
+        'Dim enableinitialze As String = "Y"
+        'Dim numberArray As Int32 = 0
+        'Do While enableinitialze.ToLower = "y" And numberArray <= 6
+        '    Console.WriteLine("Please input an value")
+        '    userInputArray(numberArray) = Console.ReadLine()
+        '    Console.WriteLine("Do you still want to add any more? (Y/N)")
+        '    enableinitialze = Console.ReadLine()
+        '    numberArray = numberArray + 1
+        'Loop
+        'Console.WriteLine("In your array, you have:")
+        'numberArray = 0
+        'For numberArray = 0 To 5
+        '    Console.WriteLine(userInputArray(numberArray))
+        '    numberArray = numberArray + 1
+        'Next
+        'Dim userInputString As String
+        'Dim i As Int32 = 0
+        'Dim m As Boolean
+        'Console.WriteLine("Please enter a name")
+        'userInputString = Console.ReadLine()
+        'For i = 0 To 9
+        '    If userInputString.ToLower = userInputArray(i).ToLower Then
+        '        Console.WriteLine("He's in the array")
+        '        Console.ReadKey()
+        '        Return
+        '    Else
+        '        i = i + 1
+        '    End If
+        '    m = True
 
+        'Next
+        'If m = True Then
+        '    Console.WriteLine("404")
+        'End If
+        'Dim n1 As Integer
+        'Dim n2 As Int32
+        'n1 = UBound(userInputArray)
+        Dim userInput As String
+        Dim i As Int32
+
+        Console.WriteLine("Type in any word")
+        userInput = Console.ReadLine()
+        For i = 1 To 10
+            Console.WriteLine(userInput)
         Next
-        If m = True Then
-            Console.WriteLine("404")
-        End If
-        Dim n1 As Integer
-        Dim n2 As Int32
-        n1 = UBound(userInputArray)
 
         Console.ReadKey()
 
