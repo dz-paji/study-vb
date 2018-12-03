@@ -476,24 +476,24 @@ Module Program
         'Dim n1 As Integer
         'Dim n2 As Int32
         'n1 = UBound(userInputArray)
-        Dim userInput1 As String
-        Dim userInput2 As String
-        Dim userInput3 As String
-        Dim i As Int32
-        Dim iUser As Int32
-        Dim userSelect As Int32
-        Dim systemSelect3 As Int32
-        Dim systemSelect2 As Int32
-        Dim systemSelectPrime As Int32
+        'Dim userInput1 As String
+        'Dim userInput2 As String
+        'Dim userInput3 As String
+        'Dim i As Int32
+        'Dim iUser As Int32
+        'Dim userSelect As Int32
+        'Dim systemSelect3 As Int32
+        'Dim systemSelect2 As Int32
+        'Dim systemSelectPrime As Int32
 
-        Console.WriteLine("Type in any word you want")
-        userInput1 = Console.ReadLine()
-        Console.WriteLine("Type in any word you want")
-        userInput2 = Console.ReadLine()
-        Console.WriteLine("Type in any word you want")
-        userInput3 = Console.ReadLine()
-        Console.WriteLine("How many times do you want to repeat?")
-        iUser = Console.ReadLine()
+        'Console.WriteLine("Type in any word you want")
+        'userInput1 = Console.ReadLine()
+        'Console.WriteLine("Type in any word you want")
+        'userInput2 = Console.ReadLine()
+        'Console.WriteLine("Type in any word you want")
+        'userInput3 = Console.ReadLine()
+        'Console.WriteLine("How many times do you want to repeat?")
+        'iUser = Console.ReadLine()
         'Console.WriteLine("Which word would you want to repeat, {0}, {1}, or {2}?", userInput1, userInput2, userInput3)
         'userSelect = Console.ReadLine()
         'Select Case userSelect
@@ -518,15 +518,63 @@ Module Program
         '    'Console.WriteLine(userInput)
         '    Console.WriteLine("{0}, {1}, {2}", userInput1, userInput2, userInput3)
         'Next
-        systemSelect3 = iUser Mod 3
-        systemSelect2 = iUser Mod 2
-        systemSelectPrime = iUser Mod iUser
-        If systemSelect3 = 0 Then
-            Console.WriteLine(userInput3)
-        ElseIf systemSelect2 = 0 Then
-            Console.WriteLine(userInput2)
-        ElseIf systemSelectPrime = 0 Then
-            Console.WriteLine(userInput1)
+        'systemSelect3 = iUser Mod 3
+        'systemSelect2 = iUser Mod 2
+        'systemSelectPrime = iUser Mod iUser
+        'If systemSelect3 = 0 And systemSelect2 = 0 Then
+        '    Console.WriteLine()
+        'ElseIf systemSelect3 = 0 Then
+        '    Console.WriteLine(userInput3)
+        'ElseIf systemSelect2 = 0 Then
+        '    Console.WriteLine(userInput2)
+        'ElseIf systemSelectPrime = 0 Then
+        '    Console.WriteLine(userInput1)
+        'End If
+        Dim userLoop As Int32
+        Dim initialNumber As Int32
+        Dim endingNumber As Int32
+        Dim i As Int32
+        Console.WriteLine("Please enter a number, 1, 2, 3 or 4.")
+        userLoop = Console.ReadLine()
+        Console.WriteLine("Please enter an initial number")
+        initialNumber = Console.ReadLine()
+        Console.WriteLine("Please enter the ending number")
+        endingNumber = Console.ReadLine()
+        If initialNumber < endingNumber Then
+            Console.WriteLine(initialNumber)
+
+            Select Case userLoop
+                Case 1
+                    Do While initialNumber <> endingNumber
+
+                        initialNumber = initialNumber + 1
+                        Console.WriteLine(initialNumber)
+                    Loop
+
+                Case 2
+                    Do While Not initialNumber = endingNumber
+                        initialNumber = initialNumber + 1
+                        Console.WriteLine(initialNumber)
+
+                    Loop
+
+                Case 3
+                    Do Until initialNumber = endingNumber
+                        initialNumber = initialNumber + 1
+                        Console.WriteLine(initialNumber)
+
+                    Loop
+
+                Case 4
+                    For i = initialNumber To endingNumber
+                        Console.WriteLine(initialNumber)
+                        initialNumber = initialNumber + 1
+
+                    Next
+
+            End Select
+        Else
+            Console.WriteLine("The initial number can't be bigger or equal to the ending number.")
         End If
 
         Console.ReadKey()
