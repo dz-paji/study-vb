@@ -1,0 +1,11 @@
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\bin\Debug\netcoreapp2.1\Pre-released tasks.deps.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\bin\Debug\netcoreapp2.1\Pre-released tasks.runtimeconfig.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\bin\Debug\netcoreapp2.1\Pre-released tasks.runtimeconfig.dev.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\bin\Debug\netcoreapp2.1\Pre-released tasks.dll
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\bin\Debug\netcoreapp2.1\Pre-released tasks.pdb
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.vbprojAssemblyReference.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.vbproj.CoreCompileInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.AssemblyInfoInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.AssemblyInfo.vb
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.dll
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks\Pre-released tasks\Pre-released tasks\obj\Debug\netcoreapp2.1\Pre-released tasks.pdb
