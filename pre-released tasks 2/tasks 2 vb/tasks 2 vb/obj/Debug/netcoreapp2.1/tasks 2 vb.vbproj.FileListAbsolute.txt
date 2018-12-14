@@ -1,0 +1,11 @@
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\bin\Debug\netcoreapp2.1\tasks 2 vb.deps.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\bin\Debug\netcoreapp2.1\tasks 2 vb.runtimeconfig.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\bin\Debug\netcoreapp2.1\tasks 2 vb.runtimeconfig.dev.json
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\bin\Debug\netcoreapp2.1\tasks 2 vb.dll
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\bin\Debug\netcoreapp2.1\tasks 2 vb.pdb
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.vbprojAssemblyReference.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.vbproj.CoreCompileInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.AssemblyInfoInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.AssemblyInfo.vb
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.dll
+C:\Users\zhang\Documents\GitHub\studycoding\pre-released tasks 2\tasks 2 vb\tasks 2 vb\obj\Debug\netcoreapp2.1\tasks 2 vb.pdb
