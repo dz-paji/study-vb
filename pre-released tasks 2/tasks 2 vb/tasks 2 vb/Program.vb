@@ -36,17 +36,29 @@ Module Program
             ' store their input in the transition variable
 
             ' validation
-            If systemValidationDouble < 30 Or systemValidationDouble > 200 Then
-                ' if the data is invalid, show something.
-                Console.WriteLine("Wait... The data you entered seems invalid. Please check again.")
-                Return
-            Else
-                ' id the data is valid, store it in the array.
-                inputWeightArray(i) = systemValidationDouble
-            End If
 
-            ' output the data they entered.
-            Console.WriteLine("Student {0}, has weight {1) kg", inputNameArray(i), inputWeightArray(i))
+            ' For systemValidationDouble less than 30 Or systemValidationDouble greater than 200, let thwm enter again.
+            Do While systemValidationDouble < 30 Or systemValidationDouble > 200
+
+                ' please message
+                Console.WriteLine("Wait... The data you entered seems invalid. Please enter again.")
+
+                'enter again
+                systemValidationDouble = Console.ReadLine()
+
+            Loop
+
+
+
+            ' if the data is invalid, show something.
+            ' id the data is valid, store it in the array.
+            inputWeightArray(i) = systemValidationDouble
+
+        Next  ' output the data they entered.
+        For i = 0 To 29
+
+            Console.WriteLine("Student {0}, has weight {1} kg", inputNameArray(i), inputWeightArray(i))
+
 
             ' end the loop, i ++
         Next
