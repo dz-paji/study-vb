@@ -4,8 +4,10 @@ Module Program
     Sub Main(args As String())
         'Console.WriteLine("Hello World!")
 
-        ' declear user input temperature array
+        ' this is the array used to store the midday temperature
         Dim usrMiddayTemperatureArray(29) As Double
+
+        ' this is the array used to store the midday temperature
         Dim usrMidnightTemperatureArray(29) As Double
 
         'declear trans variable
