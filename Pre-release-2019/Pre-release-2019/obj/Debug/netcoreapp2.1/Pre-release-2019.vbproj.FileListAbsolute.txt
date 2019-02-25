@@ -1,0 +1,11 @@
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\bin\Debug\netcoreapp2.1\Pre-release-2019.deps.json
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\bin\Debug\netcoreapp2.1\Pre-release-2019.runtimeconfig.json
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\bin\Debug\netcoreapp2.1\Pre-release-2019.runtimeconfig.dev.json
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\bin\Debug\netcoreapp2.1\Pre-release-2019.dll
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\bin\Debug\netcoreapp2.1\Pre-release-2019.pdb
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.vbprojAssemblyReference.cache
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.vbproj.CoreCompileInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.AssemblyInfoInputs.cache
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.AssemblyInfo.vb
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.dll
+C:\Users\zhang\Documents\GitHub\studycoding\Pre-release-2019\Pre-release-2019\obj\Debug\netcoreapp2.1\Pre-release-2019.pdb
