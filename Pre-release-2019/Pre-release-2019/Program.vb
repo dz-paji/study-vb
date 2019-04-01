@@ -87,6 +87,7 @@ Module Program
             userInput = Console.ReadLine()
             ' seller enter the reserve price to a temporary variable, waiting validation
 
+            ' do until isnumric(userinput) = false
             If userInput < 0 Then
                 ' use if to check if the price entered is valid
 
@@ -113,7 +114,7 @@ Module Program
         ' initial variable i
 
         userInput = "Y"
-        ' initial variabke
+        ' initial variable
 
         Do While userInput = "Y"
             ' do the loop when usr want to bid
@@ -126,35 +127,48 @@ Module Program
 
             ' result = Enumerable.Range(0, itemName.Length).Where(Function(x) itemName(x).ToLower().Contains(userInput.ToLower()))
 
-            itemCounter = 0
-            ' initial counter
+            If userInput > itemCounter Then
+                ' validate the input
 
-            Do Until userInput = itemName(itemCounter)
-                ' use for loop to query the item
+                Console.WriteLine("Sorry, this item currently not available.")
+                ' error message
 
+            Else
+                'if no error detechted
 
+                itemCounter = 0
+                ' initial counter
 
-                itemCounter = itemCounter + 1
-                ' counter + 1
-
-            Loop
-
-            ' query the array, find the item that maches with user's input and store that in variable result
-
-
-            Do While itemHBid(itemCounter) Is Nothing
-                ' when the item doesn't have highest bid
-
-                itemHBid(itemCounter) = 0
-                ' set the highest bid to 0
-
-            Loop
-            ' end of the loop
+                Do Until userInput = itemName(itemCounter)
+                    ' use for loop to query the item
 
 
 
-            Console.WriteLine("The description of item {0} is {1}, and the current highest bid is {2}", itemCounter, itemdesc(itemCounter), itemHBid(itemCounter))
-            ' output the descrption, item number and current highest bid.
+                    itemCounter = itemCounter + 1
+                    ' counter + 1
+
+                Loop
+
+                ' query the array, find the item that maches with user's input and store that in variable result
+
+
+                Do While itemHBid(itemCounter) Is Nothing
+                    ' when the item doesn't have highest bid
+
+                    itemHBid(itemCounter) = 0
+                    ' set the highest bid to 0
+
+                Loop
+                ' end of the loop
+
+
+
+                Console.WriteLine("The description of item {0} is {1}, and the current highest bid is {2}", itemCounter, itemdesc(itemCounter), itemHBid(itemCounter))
+                ' output the descrption, item number and current highest bid.
+
+
+            End If
+
 
             Console.WriteLine("Please enter your buyer id.")
             ' let the user enter their buyer id
